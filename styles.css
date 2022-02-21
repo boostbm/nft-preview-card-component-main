@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
 
+:root {
+  --darkestblue: hsl(217, 54%, 11%); /* Main Bg */
+  --darkerblue: hsl(216, 50%, 16%); /* Card Bg */
+  --darkblue: hsl(215, 32%, 27%); /* Line */
+  --white: hsl(0, 0%, 100%);
+  --lightblue: hsl(228, 45%, 44%); /* Footer */
+}
+
 * {
   margin: 0;
   padding: 0;
+  background-color: var(--darkestblue);
 }
