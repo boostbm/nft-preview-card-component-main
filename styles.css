@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 :root {
   --darkestblue: hsl(217, 54%, 11%); /* Main Bg */
@@ -14,7 +14,8 @@ body {
   padding: 0;
   margin: 0 auto;
   box-sizing: border-box;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
   background: var(--darkestblue);
   display: flex;
   justify-content: center;
@@ -48,12 +49,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-weight: 300;
   color: var(--softblue);
   font-family: "Quicksand", sans-serif;
-}
-
-i {
-  width: 10px;
-  height: 10px;
 }
