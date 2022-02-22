@@ -12,14 +12,13 @@
 
 body {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
   background: var(--darkestblue);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .container {
@@ -28,7 +27,6 @@ body {
   background: var(--darkerblue);
   display: flex;
   flex-direction: column;
-  font-family: "Quicksand", sans-serif;
   padding: 20px;
   margin: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
@@ -36,24 +34,28 @@ body {
   background-color: rgba (255, 255, 255, 0.3);
 }
 
-img {
+.img {
   border-radius: 10px;
-  width: 300px;
-  height: 300px;
+  width: 20px;
+  height: 20px;
 }
 
 h2 {
   color: var(--white);
   font-size: 20px;
+  font-weight: 600;
 }
 
-h3 {
+p {
   font-weight: 300;
   color: var(--softblue);
   font-size: 18px;
 }
 
-ul {
+.container ul {
   list-style: none;
   color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
