@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 :root {
-  --darkestblue: hsl(217, 54%, 11%); /* Main Bg */
-  --darkerblue: hsl(216, 50%, 16%); /* Card Bg */
-  --darkblue: hsl(215, 32%, 27%); /* Line */
+  --mainbg: hsl(217, 54%, 11%); /* Main Bg */
+  --cardbg: hsl(216, 50%, 16%); /* Card Bg */
+  --line: hsl(215, 32%, 27%); /* Line */
   --white: hsl(0, 0%, 100%);
   --lightblue: hsl(228, 45%, 44%); /* Footer */
   --softblue: hsl(215, 51%, 70%);
@@ -15,7 +15,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
-  background: var(--darkestblue);
+  background: var(--mainbg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,14 +24,13 @@ body {
 .container {
   width: 300px;
   height: 500px;
-  background: var(--darkerblue);
+  background: var(--cardbg);
   display: flex;
   flex-direction: column;
   padding: 20px;
   margin: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
   border-radius: 30px;
-  background-color: rgba (255, 255, 255, 0.3);
 }
 
 img {
