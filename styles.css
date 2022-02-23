@@ -143,8 +143,4 @@ li {
 }
 
 @media (min-width: 500px) {
-  .container {
-    width: 450px;
-    margin: auto;
-  }
 } ;
