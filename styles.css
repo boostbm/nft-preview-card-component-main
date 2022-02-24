@@ -89,14 +89,14 @@ li {
   transform: translate(-50%, -50%);
 }
 
-.container h2 {
+.container h1 {
   color: var(--white);
   font-size: 20px;
   font-weight: 600;
   margin: 1rem 0.5rem 0.5rem 0;
 }
 
-.container h2:hover {
+.container h1:hover {
   color: var(--cyan);
   cursor: pointer;
 }
